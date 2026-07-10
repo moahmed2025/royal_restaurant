@@ -1,0 +1,145 @@
+   * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+        background-color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+            display: flex;
+
+            justify-content: space-between;
+            background-color: rgb(81, 45, 45);
+            padding: 30px 0px;
+            
+        }
+
+        img {
+            width: 150px;
+            height: 50px;
+            object-fit: cover;
+        }
+
+        nav {
+            padding: 0px 300px;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            padding-right: 10px;
+            display: inline-block;
+            ;
+            justify-content: space-around;
+            padding-top: 10px;
+            gap: 20px;
+
+
+        }
+
+        nav ul li a {
+
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: orange;
+
+        }
+
+        .home {
+
+            height: 70vh;
+            line-height: 1.5;
+            }
+
+        /* 
+        /* section waxan u isticmalay inan ku qurxiyo home  */
+        .home-content {
+            background: linear-gradient(45deg, rgba(14, 14, 14, 0.7), rgba(114, 112, 107, 0.3)), url(https://images.openai.com/static-rsc-4/0dTto29rvGuKeEUNojntAxJZ4wtmXc_j8wtfXssjMmnpgrhXt10RNEiZgzZ6O7d-bbJXc0zRcl4HioRcfzRFZHH_ykRgK5JimOIzAVtrLbkt-RTojKCUgGJ1DMWC1tf0aJNawTl8lJhRz1WrWn_sWx4faNFyFzoyIX4frKfWXNYh-lWC1bUTycIcxoYOujwP?purpose=fullsize);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 70vh;
+            object-fit: cover;
+            color: white;
+
+
+
+        }
+
+        .home-content {
+            padding-left: 60px;
+            padding-top: 40px;
+
+
+            /* qoraalka wax yar uga soo leexo left */
+
+        }
+
+        .home_title {
+            color: #fdfdfd;
+            font-size: 40px;
+            line-height: 1.1;
+            /* Welcome iyo Royal isu soo dhowee */
+            margin-bottom: 15px;
+
+
+        }
+
+        span {
+
+            color: rgb(255, 255, 255);
+            font-size: 3rem;
+            padding-bottom: 50px;
+
+
+        }
+
+        .home_description {
+            font-size: 13px;
+        }
+        /* waxan ku habeenay about section */
+.about_us{
+     background-color: rgba(197, 193, 182, 0.29);
+    padding: 40px 18px;
+ 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center; 
+    flex-wrap: wrap  ;
+   margin-top: 40px;
+}
+.img{
+    width: 300px;
+    height: 250px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 50px;
+}
+
+.contact_info{
+     max-width: 600px;
+   margin: 30px auto;
+   
+}
+
+.about_title{
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+.about_text{
+     font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.4;
+    margin-top: 13px;
+}
